@@ -1,0 +1,30 @@
+/* keep it mobile friendly by only applying these styles for larger viewports */
+/* Replace 2 in #gform_wrapper_2 with the id of your form.*/
+
+@media only screen and (min-width: 641px) {
+  
+    body #gform_wrapper_2 { 
+     max-width: 50%;
+     margin: 0 auto;
+    }
+     
+    body #gform_wrapper_2 .gfield .ginput_container,
+    body #gform_wrapper_2 .gfield .gfield_description,
+    body #gform_wrapper_2 div.ginput_complex label,
+    body #gform_wrapper_2 input:not([type='radio']):not([type='checkbox']):not([type='submit']), 
+    body #gform_wrapper_2 select, 
+    body #gform_wrapper_2 textarea { 
+     text-align:center;
+    }
+     
+    body #gform_wrapper_2 .top_label .gfield .gfield_label {
+     text-align: center;
+     display: block;
+    }
+       
+     body #gform_wrapper_2 .gform_footer,
+     body #gform_wrapper_2 .gform_page_footer{
+       text-align: center;
+     }
+     
+   }
