@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Removes the WP version number from front-end markup to help with security.
+ * Removes the WP version number form the header
  */
 
  function remove_wp_version() {
