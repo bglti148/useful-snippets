@@ -4,4 +4,7 @@
  * Removes the WP version number from front-end markup to help with security.
  */
 
- add_filter('the_generator', '__return_empty_string');
+ function remove_wp_version() {
+    return '';
+}
+add_filter('the_generator', 'remove_wp_version');
